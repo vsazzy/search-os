@@ -12,7 +12,7 @@
   height: 10vmin;
   pointer-events: none;
 }
-input[type=text], select {
+.type, select {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -33,6 +33,6 @@ input[type=text], select {
   cursor: pointer;
 }
 
-input[type=submit]:hover {
+.btn:hover {
   background-color: #45a049;
 }

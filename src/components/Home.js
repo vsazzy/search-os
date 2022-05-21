@@ -37,6 +37,7 @@ export default function Home() {
               name="ipadddress"
               placeholder="15.85..."
               value={ipAdd}
+              className="type"
               onChange={(e) => setipAdd(e.target.value)}
             ></input>
             <button className="btn" type="submit" value="Submit">

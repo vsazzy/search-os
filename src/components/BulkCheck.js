@@ -27,6 +27,7 @@ export default function BulkCheck() {
             type="text"
             id="ipadd"
             name="ipadddress"
+            className="type"
             placeholder="Comma separated IP addresses"
             value={ipAdd}
             onChange={(e) => setipAdd(e.target.value)}
